@@ -35,9 +35,14 @@ nav {
 
 #aboutMe {
     border-bottom: solid #cccccc 1px;
+    padding: 25px;
+    margin: 0px;
+    font-weight: bold;
+    color: #4aaaa5;
 }
-#connectWithMe {
-    float: left;
+
+figure {
+    margin-left: 25px;
 }
 
 #amber {
@@ -48,10 +53,33 @@ nav {
 }
 
 p {
-    
+   margin-right: 25px; 
+   margin-left: 25px;
 }
 
+#connectWithMe {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    width: 270px;
+}
 
+#connect {
+    margin: 0px;
+    color: #4aaaa5;
+    border-bottom: solid #cccccc 1px;
+    padding: 25px;
+}
+
+#icon {
+    width: 70px;
+    height: 70px;
+}
+
+#icons {
+    margin: 25px;
+}
 .clear {
     content: "";
     display: table;
