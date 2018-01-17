@@ -1,5 +1,11 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url("../images/dust_scratches.png");
+    display: flex;
+    flex-direction: column;
 }
 header {
     background-color: #ffffff;
@@ -63,6 +69,7 @@ p {
     margin-left: 25px;
     background-color: #ffffff;
     width: 270px;
+    
 }
 
 #connect {
@@ -80,6 +87,20 @@ p {
 #icons {
     margin: 25px;
 }
+
+.footer {
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    padding: 25px;
+    border-top: solid 7px #4aaaa5;
+    margin-top: 25px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
 .clear {
     content: "";
     display: table;
