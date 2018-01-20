@@ -49,14 +49,21 @@ nav {
 }
 
 figure {
-    margin-left: 25px;
+    margin: 0px;
 }
 
 #amber {
     height: 200px;
     width: 200px;
     float: left;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+}
+
+#amber1 {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 15px 0px 25px 25px;
 }
 
 p {
@@ -106,8 +113,49 @@ form {
     margin: 25px 0px 25px 25px;
 }
 
+textarea {
+    -webkit-appearance: textfield;
+    width: 605px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 6px 15px;
+}
+
+#nav1 {
+    border-right: solid #cccccc 1px;
+    padding: 6px 15px;
+}
+
+#nav2 {
+    padding: 6px 15px;
+}
 .clear {
     content: "";
     display: table;
     clear: both;
+}
+
+.thumbnail {
+    float: left;
+    position: relative;
+    height: 200px;    
+    width: 200px;
+}
+
+.thumbtext {
+    position: absolute;
+    background-color: #a57575;
+    width: 200px;
+    height: 25px;
+    bottom: 25px;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+#suck {
+
+    margin: 3px 0px 25px 25px;
 }
