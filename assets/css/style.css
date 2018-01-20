@@ -56,14 +56,18 @@ figure {
     height: 200px;
     width: 200px;
     float: left;
-    /* margin-right: 20px; */
 }
 
+#amberp {
+    height: 200px;
+    width: 285px;
+    float: left;
+}
 #amber1 {
     height: 200px;
     width: 200px;
     float: left;
-    margin: 15px 0px 25px 25px;
+    margin: 0px 18px 0px 25px;
 }
 
 p {
@@ -138,17 +142,26 @@ textarea {
     clear: both;
 }
 
-.thumbnail {
+.thumbnail-left {
     float: left;
     position: relative;
     height: 200px;    
-    width: 200px;
+    width: 285px;
+    margin: 25px 15px 25px 25px;
+}
+
+.thumbnail-right {
+    float: left;
+    position: relative;
+    height: 200px;    
+    width: 285px;
+    margin: 25px 25px 25px 15px;
 }
 
 .thumbtext {
     position: absolute;
     background-color: #a57575;
-    width: 200px;
+    width: 285px;
     height: 25px;
     bottom: 25px;
     text-align: center;
