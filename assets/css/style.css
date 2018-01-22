@@ -4,7 +4,8 @@ html, body {
 }
 
 body {
-    
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -14,6 +15,7 @@ header {
     float: left;
     width: 960px;
     margin-left: 200px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 #isaac {
@@ -37,7 +39,7 @@ nav {
     float: left;
     margin-top: 25px;
     margin-left: 200px;
-    
+    border: solid #dddddd 1px;
 }
 
 #aboutMe {
@@ -80,7 +82,7 @@ p {
     margin-left: 25px;
     background-color: #ffffff;
     width: 270px;
-    
+    border: solid #dddddd 1px;
 }
 
 #connect {
