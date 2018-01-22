@@ -158,7 +158,7 @@ textarea {
     margin: 25px 25px 25px 15px;
 }
 
-.thumbtext {
+.hangman {
     position: absolute;
     background-color: #a57575;
     width: 285px;
@@ -166,6 +166,20 @@ textarea {
     bottom: 25px;
     text-align: center;
     padding: 5px 0px 0px 0px;
+}
+
+.hangman2 {
+    position: absolute;
+    background-color: #a57575;
+    width: 285px;
+    height: 25px;
+    bottom: 25px;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+#amberp:hover ~ .hangman2 {
+    background-color: #79a575;
 }
 
 #suck {
